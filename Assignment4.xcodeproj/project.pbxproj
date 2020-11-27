@@ -15,6 +15,7 @@
 		055A59B02560BB150054F2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055A59AE2560BB150054F2A6 /* LaunchScreen.storyboard */; };
 		055A59B92560C89C0054F2A6 /* AddTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A59B82560C89C0054F2A6 /* AddTaskCell.swift */; };
 		055A59BC2560C96A0054F2A6 /* TaskDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A59BB2560C96A0054F2A6 /* TaskDetailsController.swift */; };
+		058AE9B1256EC4A70099C7EC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AE9B0256EC4A70099C7EC /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		055A59B12560BB150054F2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		055A59B82560C89C0054F2A6 /* AddTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskCell.swift; sourceTree = "<group>"; };
 		055A59BB2560C96A0054F2A6 /* TaskDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsController.swift; sourceTree = "<group>"; };
+		058AE9B0256EC4A70099C7EC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		055A59A22560BB120054F2A6 /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				058AE9AF256EC4620099C7EC /* AppUtility */,
 				055A59BA2560C9470054F2A6 /* TaskDetails */,
 				055A59B72560BC9A0054F2A6 /* TasksList */,
 				055A59A32560BB120054F2A6 /* AppDelegate.swift */,
@@ -87,6 +90,14 @@
 				055A59BB2560C96A0054F2A6 /* TaskDetailsController.swift */,
 			);
 			path = TaskDetails;
+			sourceTree = "<group>";
+		};
+		058AE9AF256EC4620099C7EC /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				058AE9B0256EC4A70099C7EC /* UIViewExtension.swift */,
+			);
+			path = AppUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058AE9B1256EC4A70099C7EC /* UIViewExtension.swift in Sources */,
 				055A59B92560C89C0054F2A6 /* AddTaskCell.swift in Sources */,
 				055A59A82560BB120054F2A6 /* TaskListController.swift in Sources */,
 				055A59BC2560C96A0054F2A6 /* TaskDetailsController.swift in Sources */,
